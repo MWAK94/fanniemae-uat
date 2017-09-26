@@ -10,7 +10,9 @@ import cucumber.api.junit.Cucumber;
 				 features = "src/test/resources/features/", 
 				 glue = "com.fanniemae.step_defs",
 				 tags= "@smoke",
-				 dryRun = false)
+				 dryRun = true
+				 //dryRun was false
+				 )
 public class CukesRunner {
 
 }
