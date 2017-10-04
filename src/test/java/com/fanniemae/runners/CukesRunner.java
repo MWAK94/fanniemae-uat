@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(plugin = {"html:target/cucumber-reports", "json:target/cucumber.json"}, 
 				 features = "src/test/resources/features/", 
 				 glue = "com.fanniemae.step_defs",
-				 tags= "@smoke",
-				 dryRun = true
+				 tags= "@Fanniemae_Test2",
+				 dryRun = false
 				 //dryRun was false
 				 )
 public class CukesRunner {
