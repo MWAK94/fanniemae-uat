@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 				 glue = "com.fanniemae.step_defs",
 				 tags= "@Fanniemae_Test2",
 				 dryRun = false
-				 //dryRun was false
+				 //dryRun was true
 				 )
 public class CukesRunner {
 
